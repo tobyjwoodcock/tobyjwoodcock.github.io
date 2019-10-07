@@ -1,0 +1,47 @@
+@keyframes change-color {
+from {background-color: lightgrey}
+to {background-color: lightsalmon}
+}
+
+div {
+    text-align:center;
+}
+
+h1 {
+ width:100%; background-color: lightsalmon; padding: 50px;
+ animation-name: change-color;
+ animation-duration: 1s;
+}
+
+h2 {
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  align-self: center;
+}
+
+h3 {
+  color: lightsalmon
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box2{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin:10px 20px 20px 10px;
+  width:500px;
+  max-height:500px;
+}
+
+.container{
+  background-color: lightgrey;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
