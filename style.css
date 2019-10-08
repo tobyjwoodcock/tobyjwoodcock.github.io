@@ -3,9 +3,27 @@ from {background-color: lightgrey}
 to {background-color: dodgerblue}
 }
 
+html {
+  scroll-behavior: smooth;
+ }
+
 div {
     text-align:center;
 }
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+  font-size: 5em;
+  color: dodgerblue;
+}
+
 
 header {
  width:100%; color: white; background-color: dodgerblue; padding: 25px; height: 125px;
