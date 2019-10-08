@@ -72,3 +72,12 @@ h3 {
   border-radius: 10px;
   padding: 20px;
 }
+
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
