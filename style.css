@@ -1,6 +1,6 @@
 @keyframes change-color {
 from {background-color: lightgrey}
-to {background-color: lightsalmon}
+to {background-color: dodgerblue}
 }
 
 div {
@@ -8,7 +8,7 @@ div {
 }
 
 header {
- width:100%; color: white; background-color: lightsalmon; padding: 25px; height: 125px;
+ width:100%; color: white; background-color: dodgerblue; padding: 25px; height: 125px;
  text-align: center;
  animation-name: change-color;
  animation-duration: 1s;
@@ -37,7 +37,7 @@ header {
 
 
 footer {
-  background-color: lightsalmon; padding: 20px; margin-top: 20px;
+  background-color: dodgerblue; padding: 20px; margin-top: 20px;
 }
 
 h2 {
@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-  color: lightsalmon
+  color: dodgerblue
 }
 
 .flex-container {
